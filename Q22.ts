@@ -5,3 +5,12 @@
 // Look closely at your results, and make sure you understand why each line evaluates to True or False.
 // Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
 
+let car = "Subaru"
+
+console.log("Car == Subaru .I predict true");
+console.log("Car == Subaru ");    //true
+console.log(car == "honda");      //false
+console.log("Car === Subaru .I predict true");
+console.log(car === "Subaru");    //true
+console.log("Car === Subaru .I predict false");
+console.log(car === "Subaru");    //false
