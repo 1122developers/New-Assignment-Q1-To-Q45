@@ -12,7 +12,7 @@ var carsType = [
     Cars("City", "Honda", "White"),
     Cars("GLI", "Corola", "Silver Grey"),
 ];
-var invalidIndex = 10;
+var invalidIndexnumber = 10;
 console.log("cars at index", invalidIndex, carsType[invalidIndex]);
 carsType.forEach((Cars) => {
     console.log("Name=", Cars.name, "company=", Cars.company, "color", Cars.color);
